@@ -1,0 +1,44 @@
+.blogpost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  .blogpost h2{
+    color: white;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+  }
+  
+  .blogpost_container{
+    background: #F7DAD9;
+    width: 75%;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .blogpost_title{
+    box-shadow: 0 5px 2px rgb(196, 177, 176);
+    text-align: left;
+    padding: 10px 20px;
+  }
+  
+  .blogpost_title h3{
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    color: rgb(22, 164, 189);
+  }
+  
+  .blogpost_content{
+    text-align: left;
+    padding: 20px 30px;
+  }
+  
+  .blogpost_content p{
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    word-spacing: 3px;
+  }
